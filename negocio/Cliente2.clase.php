@@ -2,7 +2,7 @@
 
 require_once '../datos/Conexion.clase.php';
 
-class Cliente extends Conexion {
+class Cliente2 extends Conexion {
     private $id_cliente;
     private $apellidos;
     private $nombres;
