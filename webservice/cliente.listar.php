@@ -11,14 +11,14 @@ if (! isset($_POST["token"])){
 
 $token = $_POST["token"];
 try {
-    if(validarToken($token)){
+    //if(validarToken($token)){
         $obj = new Cliente();
         $resultado = $obj->Listar();      
         
               
         
         Funciones::imprimeJSON(200, "", $resultado);
-    }
+   // }
     
     
 } catch (Exception $exc) {
